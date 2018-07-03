@@ -544,6 +544,30 @@ body{
                             }
                         }
                     }
+                    .soc-links{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 25px;
+                        .soc{
+                            margin: 0 11px;
+                            display: block;
+                            border-radius: 50%;
+                            background-size: contain;
+                            background-position: center;
+                            &.fb{
+                               width: 54px;
+                                height: 54px;
+                                background-image: url(../img/fb.png);
+                                
+                            }
+                            &.insta{
+                                width: 56px;
+                                height: 56px;
+                                background-image: url(../img/insta.png);
+                            }
+                        }
+                    }
                 }
             }   
         }

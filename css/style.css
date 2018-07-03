@@ -432,6 +432,25 @@ body {
             outline: none; }
             .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons a:last-child, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons span:last-child, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons button:last-child {
               background-color: #f4b718; }
+        .form-subscribe .m-w .left-side .form-wrapp form .soc-links {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 25px; }
+          .form-subscribe .m-w .left-side .form-wrapp form .soc-links .soc {
+            margin: 0 11px;
+            display: block;
+            border-radius: 50%;
+            background-size: contain;
+            background-position: center; }
+            .form-subscribe .m-w .left-side .form-wrapp form .soc-links .soc.fb {
+              width: 54px;
+              height: 54px;
+              background-image: url(../img/fb.png); }
+            .form-subscribe .m-w .left-side .form-wrapp form .soc-links .soc.insta {
+              width: 56px;
+              height: 56px;
+              background-image: url(../img/insta.png); }
   .form-subscribe .m-w .right-side {
     width: 50%; }
 
