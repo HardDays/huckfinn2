@@ -288,7 +288,11 @@ body {
   background-image: url(../img/bg-sec-4.png);
   background-size: cover;
   background-position: top center;
-  padding: 0 150px; }
+  padding: 0 150px;
+  margin-top: -320px;
+  z-index: 20;
+  position: relative;
+  padding-top: 145px; }
   .sec-lvl-4 .bg-movie {
     height: 764px;
     width: 1174px;
