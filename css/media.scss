@@ -1,3 +1,4 @@
+
 @media (max-width: 1900px) {
 	.sec-lvl-4.sec-lvl-4--attraction {
 		margin-top: -285px;
@@ -11,13 +12,49 @@
 	}
 }
 
+
+
+@media (max-width: 1700px) {
+    .sec-lvl-1 .october{
+        width: 250px;
+    }
+    .sec-lvl-1 .lvl-1-m-w .years{
+        width: 150px;    
+    }
+    .sec-lvl-1 .lvl-1-m-w .ticket{
+        width: 175px;
+    }
+}
+@media (max-width: 1500px) {
+    .sec-lvl-4 .bg-movie{
+        width: 1000px;
+        margin: 0 auto 190px auto;
+    }
+}
+@media (max-width: 1600px) {
+    .sec-instahacks .slider-wr .slider-init .slick-dots{
+        bottom: 11%;
+    }
+}
+@media (max-width: 1366px) {
+    .sec-lvl-1 .october {
+        width: 160px;
+    }
+    .sec-lvl-1 .lvl-1-m-w .years {
+        width: 110px;
+        left: 96%;
+    }
+    .sec-lvl-1 .lvl-1-m-w .ticket{
+        right: 90%;
+    }
+    .sec-lvl-4{
+        padding: 0 60px;
+    }
+}
+
 @media (max-width: 1439px) {
 	.footer__inner {
 		padding-bottom: 40px;
 	}
 }
 
-@media (max-width: 1199px) {
-    
-    
-}

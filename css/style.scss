@@ -145,7 +145,7 @@ body{
                 margin: 0;
                 &:hover{
                     li{
-                        a{
+                        a,span{
                             &.active{
                                 background: none;
                                 box-shadow: none;
@@ -155,27 +155,71 @@ body{
                     }
                 }
                 li{
-                    
-                    a{
-                        color: #fff;
-                        font-size: 18px;
-                        display: block;
-                        padding: 3px 25px 8px 25px;
-                        
-                        transition: 0.3s;
-                        &:hover{
+                    position: relative;
+                    &:hover{
+                         a,span{
                             transform: scale(1.1)!important;
                             background: #f4b718!important;
                             -webkit-box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53)!important;
                             -moz-box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53)!important;
                             box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53)!important;
                         }
+                    }
+                    a,span{
+                        color: #fff;
+                        font-size: 18px;
+                        display: block;
+                        padding: 3px 25px 8px 25px;
+                        
+                        transition: transform  0.3s, box-shadow 0.3s, color 0.3s;
+                       
+                        
                         &.active{
                             transform: scale(1.1);
                             background: #f4b718;
                             -webkit-box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53);
                             -moz-box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53);
                             box-shadow: 15px 15px 29px 0px rgba(0,0,0,0.53);
+                        }
+                    }
+                    .second-lvl-menu{
+                        position: absolute;
+                        top: 100%;
+                        left: -5%;
+                        visibility: hidden;
+                        transform: translateY(40px);
+                        background-color: #f4b718;
+                        transition: 0.3s;
+                        opacity: 0;
+                        padding: 10px 0;
+                        &:before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 95px;
+                            height: 3px;
+                            background:#fff;
+                            z-index: 15;
+                        }
+                        a,span{
+                            font-size: 11px;
+                            box-shadow: none!important;
+                            white-space: nowrap;
+                            transform: scale(1)!important;
+                            padding: 1px 25px 5px 25px;
+                            &:hover{
+                                color: #023546;
+                            }
+                        }
+                    }
+                    &:hover{
+                        .second-lvl-menu{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateY(0);
+                            
                         }
                     }
                 }
@@ -403,16 +447,44 @@ body{
     background-size: cover;
     background-position: top center;
     padding: 0 150px;
-        margin-top: -320px;
+    margin-top: -320px;
     z-index: 20;
     position: relative;
     padding-top: 145px;
+    &.camping-page-content{
+        margin-top: -3px;
+        z-index: 0;
+        padding-left: 0;
+        padding-right: 0;
+        background-image: url(../img/bg-camping.jpg);
+        .block-of-camping{
+            h1{
+                font-size: 30px;
+                color: #f4b718;
+                padding: 44px 15px;
+                margin: 0;
+            }
+            .blue-bg{
+                background: #023546;
+                padding: 13px;
+                margin-bottom: 80px;
+                font-family: 'Montserrat', sans-serif;
+                color: #fff;
+                font-size: 18px;
+                ul{
+                    margin-left: 0;
+                    list-style: none;
+                }
+            }
+        }
+    }
     .bg-movie{
        height: 764px;
         width: 1174px;
         background-size: contain;
         background-image: url(../img/movie-bg.png);
         background-position: center;
+        background-repeat: no-repeat;
         padding-top: 200px;
         margin-bottom: 190px;
         .iframe-wr{
