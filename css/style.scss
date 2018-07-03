@@ -476,6 +476,7 @@ body{
                 background-repeat: no-repeat;
                 background-image: url(../img/form-bg.png);
                 background-position: center;
+                margin: 0 auto;
                 .cloud-1{
                     position: absolute;
                     top: -10px;
@@ -578,14 +579,26 @@ body{
 }
 
 .footer {
-  background: url(../img/footer-bg.png) no-repeat top center /cover;
-  padding-top: 180px;
-  margin-top: -180px;
-  padding-bottom: 60px;
+  
+
+  &__inner {
+    background: url(../img/footer-bg.png) no-repeat top center /cover;
+    padding-top: 180px;
+    margin-top: -175px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 22;
+    pointer-events: none;
+  }
 
   &__nav {
     display: flex;
     margin-bottom: 10px;
+    pointer-events: auto;
+  }
+
+  &-logo {
+    pointer-events: auto;
   }
 
   &-item {
@@ -636,6 +649,7 @@ body{
     margin: 55px 0 0 0;
     padding: 0;
     list-style-type: none;
+    pointer-events: auto;
 
     li {
       margin: 0 15px;
