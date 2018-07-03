@@ -1,3 +1,10 @@
+@media (max-width: 1900px) {
+  .sec-lvl-4.sec-lvl-4--attraction {
+    margin-top: -285px;
+    padding-top: 215px; } }
+@media (max-width: 1599px) {
+  .sec-lvl-4.sec-lvl-4--attraction {
+    margin-top: -270px; } }
 @media (max-width: 1700px) {
   .sec-lvl-1 .october {
     width: 250px; }
