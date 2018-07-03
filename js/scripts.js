@@ -25,6 +25,8 @@ $(document).ready(function () {
         centerMode: false,
         focusOnSelect: true,
     });
+
+    $('#phone').mask('(000) 000-0000');
     
 
 });
