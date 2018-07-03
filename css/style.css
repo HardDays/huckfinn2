@@ -296,7 +296,11 @@ body {
   background-image: url(../img/bg-sec-4.png);
   background-size: cover;
   background-position: top center;
-  padding: 0 150px; }
+  padding: 0 150px;
+  margin-top: -320px;
+  z-index: 20;
+  position: relative;
+  padding-top: 145px; }
   .sec-lvl-4 .bg-movie {
     height: 764px;
     width: 1174px;
@@ -370,6 +374,64 @@ body {
       background-repeat: no-repeat;
       background-image: url(../img/form-bg.png);
       background-position: center; }
+      .form-subscribe .m-w .left-side .form-wrapp .cloud-1 {
+        position: absolute;
+        top: -10px;
+        left: -91px; }
+      .form-subscribe .m-w .left-side .form-wrapp form {
+        position: relative;
+        z-index: 5;
+        padding-top: 70px; }
+        .form-subscribe .m-w .left-side .form-wrapp form .head-form {
+          color: #fff;
+          font-size: 30px; }
+        .form-subscribe .m-w .left-side .form-wrapp form input {
+          border: 3px solid #164671;
+          background: transparent;
+          display: block;
+          width: 100%;
+          padding: 11px 49px;
+          margin-bottom: 28px;
+          outline: none;
+          font-size: 18px;
+          color: #bbbbbb;
+          font-family: 'Montserrat', sans-serif; }
+          .form-subscribe .m-w .left-side .form-wrapp form input::-webkit-input-placeholder {
+            color: #bbbbbb;
+            font-family: NORTHWEST,sans-serif; }
+          .form-subscribe .m-w .left-side .form-wrapp form input:-moz-placeholder {
+            color: #bbbbbb;
+            font-family: NORTHWEST,sans-serif; }
+          .form-subscribe .m-w .left-side .form-wrapp form input::-moz-placeholder {
+            color: #bbbbbb;
+            font-family: NORTHWEST,sans-serif; }
+          .form-subscribe .m-w .left-side .form-wrapp form input:-ms-input-placeholder {
+            color: #bbbbbb;
+            font-family: NORTHWEST,sans-serif; }
+        .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: calc(100% + 90px);
+          position: relative;
+          left: -45px; }
+          .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons a, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons span, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons button {
+            width: 205px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            background: #023546;
+            padding: 3px 0 8px 0;
+            margin: 0 auto 25px auto;
+            cursor: pointer;
+            -webkit-box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53);
+            -moz-box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53);
+            box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53);
+            border: none;
+            outline: none; }
+            .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons a:last-child, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons span:last-child, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons button:last-child {
+              background-color: #f4b718; }
   .form-subscribe .m-w .right-side {
     width: 50%; }
 
