@@ -288,8 +288,7 @@ body {
   background-image: url(../img/bg-sec-4.png);
   background-size: cover;
   background-position: top center;
-  padding: 0 150px;
-  padding-bottom: 145px; }
+  padding: 0 150px; }
   .sec-lvl-4 .bg-movie {
     height: 764px;
     width: 1174px;
@@ -297,7 +296,7 @@ body {
     background-image: url(../img/movie-bg.png);
     background-position: center;
     padding-top: 200px;
-    margin-bottom: 50px; }
+    margin-bottom: 190px; }
     .sec-lvl-4 .bg-movie .iframe-wr {
       position: relative;
       width: 620px;
@@ -347,5 +346,23 @@ body {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
         font-size: 14px; }
+
+.form-subscribe .m-w {
+  display: flex;
+  max-width: 990px;
+  margin: 0 auto;
+  align-items: flex-start; }
+  .form-subscribe .m-w .left-side {
+    width: 50%; }
+    .form-subscribe .m-w .left-side .form-wrapp {
+      position: relative;
+      max-width: 361px;
+      height: 543px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../img/form-bg.png);
+      background-position: center; }
+  .form-subscribe .m-w .right-side {
+    width: 50%; }
 
 /*# sourceMappingURL=style.css.map */

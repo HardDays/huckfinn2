@@ -373,7 +373,7 @@ body{
     background-size: cover;
     background-position: top center;
     padding: 0 150px;
-    padding-bottom: 145px;
+    
     .bg-movie{
        height: 764px;
         width: 1174px;
@@ -381,7 +381,7 @@ body{
         background-image: url(../img/movie-bg.png);
         background-position: center;
         padding-top: 200px;
-        margin-bottom: 50px;
+        margin-bottom: 190px;
         .iframe-wr{
             position: relative;
             width: 620px;
@@ -440,6 +440,29 @@ body{
                 color: #fff;
                 font-size: 14px;
             }
+        }
+    }
+}
+.form-subscribe{
+    .m-w{
+        display: flex;
+        max-width: 990px;
+        margin: 0 auto;
+        align-items: flex-start;
+        .left-side{
+            width: 50%;
+            .form-wrapp{
+                position: relative;
+                max-width: 361px;
+                height: 543px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-image: url(../img/form-bg.png);
+                background-position: center;
+            }   
+        }
+        .right-side{
+            width: 50%;
         }
     }
 }
