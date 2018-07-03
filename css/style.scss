@@ -212,7 +212,11 @@ body{
                             &:hover{
                                 color: #023546;
                             }
+                            &.active-second-lvl{
+                                color: #023546;
+                            }
                         }
+                        
                     }
                     &:hover{
                         .second-lvl-menu{
