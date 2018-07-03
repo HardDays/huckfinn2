@@ -165,6 +165,8 @@ body {
             padding: 1px 25px 5px 25px; }
             .sec-lvl-1 .lvl-1-m-w .bott .menu-list li .second-lvl-menu a:hover, .sec-lvl-1 .lvl-1-m-w .bott .menu-list li .second-lvl-menu span:hover {
               color: #023546; }
+            .sec-lvl-1 .lvl-1-m-w .bott .menu-list li .second-lvl-menu a.active-second-lvl, .sec-lvl-1 .lvl-1-m-w .bott .menu-list li .second-lvl-menu span.active-second-lvl {
+              color: #023546; }
         .sec-lvl-1 .lvl-1-m-w .bott .menu-list li:hover .second-lvl-menu {
           opacity: 1;
           visibility: visible;
