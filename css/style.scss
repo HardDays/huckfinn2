@@ -438,8 +438,7 @@ body{
     &.camping-page-content{
         margin-top: -3px;
         z-index: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         background-image: url(../img/bg-camping.jpg);
         .block-of-camping{
             h1{
@@ -459,6 +458,9 @@ body{
                     margin-left: 0;
                     list-style: none;
                 }
+            }
+            .map-img{
+                margin: 0 auto 40px auto;
             }
         }
     }
