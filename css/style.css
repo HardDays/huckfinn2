@@ -335,6 +335,11 @@ body {
     padding-bottom: 200px;
     background-position: top center; }
 
+.some-iframe-wr iframe {
+  width: 100%;
+  border: none;
+  display: block; }
+
 .sec-lvl-4 {
   background-image: url(../img/bg-sec-4.png);
   background-size: cover;
@@ -349,6 +354,8 @@ body {
     z-index: 0;
     padding: 0;
     background-image: url(../img/bg-camping.jpg); }
+    .sec-lvl-4.camping-page-content.for-iframe-padd {
+      padding-top: 75px; }
     .sec-lvl-4.camping-page-content .block-of-camping h1 {
       font-size: 30px;
       color: #f4b718;
