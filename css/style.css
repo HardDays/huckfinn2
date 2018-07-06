@@ -331,7 +331,8 @@ body {
             font-size: 18px;
             color: #023546;
             display: block;
-            text-align: center; }
+            text-align: center;
+            font-family: 'Anja Eliane'; }
   .sec-instahacks--attraction {
     padding-top: 60px;
     padding-bottom: 200px;
@@ -377,9 +378,10 @@ body {
       margin: 0 auto 40px auto; }
   .sec-lvl-4 .bg-movie {
     height: 764px;
-    width: 1174px;
-    background-size: contain;
-    background-image: url(../img/movie-bg.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -387,7 +389,7 @@ body {
     .sec-lvl-4 .bg-movie .iframe-wr {
       position: relative;
       width: 620px;
-      margin: 0 auto; }
+      margin-right: 22.5px; }
       .sec-lvl-4 .bg-movie .iframe-wr iframe {
         display: block;
         width: 100%;
@@ -413,7 +415,7 @@ body {
         margin-top: -33px; }
     .sec-lvl-4 .bg-movie .descr-iframe {
       max-width: 375px;
-      margin: -50px auto 0 auto;
+      margin-left: 22.2px;
       position: relative;
       z-index: 20; }
       .sec-lvl-4 .bg-movie .descr-iframe .butt-share {
