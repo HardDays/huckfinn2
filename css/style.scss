@@ -33,14 +33,14 @@ body{
 }
 
 .sec-lvl-1{
-    background-image: url(../img/main-baner.jpg);
+    background-image: url(../img/main-baner-new.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     .new-text-1{
         position: absolute;
         left: 0;
-            top: 315px;
+            top: 335px;
         width: 774px;
         background-image: url(../img/new-text-bg.png);
         background-repeat: no-repeat;
@@ -61,15 +61,15 @@ body{
             
     }
     .october{
-        height: 148px;
-        width: 438px;
+        height: 138px;
+        width: 350px;
         position: absolute;
-        left: 20px;
-        top: 20px;
+        left: 0px;
+        top: 185px;
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
-        background-image: url(../img/october.png);
+        background-position: left center;
+        background-image: url(../img/october-new.png);
     }
     .lvl-1-m-w{
         position: relative;
@@ -101,7 +101,7 @@ body{
             padding-top: 50px;
             justify-content: center;
             .l-s{
-                padding-top: 35px;
+                padding-top: 25px;
                 a{
                     width: 215px;
                     display: block;
@@ -117,10 +117,11 @@ body{
                 }
             }
             .m-s{
+                margin-top: -10px;
                 padding: 0 63px;
             }
             .r-s{
-                padding-top: 35px;
+                padding-top: 25px;
                 a{
                     width: 215px;
                     display: block;
@@ -236,6 +237,7 @@ body{
     background-position: center;
     background-size: cover;
     padding: 0 80px;
+    height: 68px;
     position: relative;
     z-index: 2;
     margin-top: -3px;
@@ -260,10 +262,11 @@ body{
 }
 .sec-instahacks{
     position: relative;
-    background-image: url(../img/bg-third-sec.jpg);
+    background-image: url(../img/bg-third-sec-lg-2.jpg);
     background-size: cover;
     margin-top: -3px;
-    background-position: bottom center;
+    padding-top: 40px;
+    background-position: top center;
     .slider-wr{
         padding: 0 26px;
        
@@ -298,9 +301,9 @@ body{
                 list-style: none;
                 margin: 0;
                 position: absolute;
-                    bottom: 8%;
+                bottom: 2%;
                 left: 50%;
-                transform: translateX(-50%);
+                transform: translateX(-50%) translateY(-25px);
                 justify-content: center;
                 align-items: center;
                 width: 221px;
@@ -380,7 +383,14 @@ body{
     .m-w{
         max-width: 1085px;
         margin: 0 auto;
-         padding-bottom: 285px;
+        padding-bottom: 285px;
+        
+        .instahucks-img {
+            width: 100%;
+            margin-bottom: 90px;
+            margin-top: 50px;
+        }
+
         h3{
             text-align: center;
             font-weight: normal;
@@ -388,6 +398,18 @@ body{
             color: #fff;
             font-size: 30px;
         }
+        
+        .flex-hucks-wrap {
+            position: relative;
+
+            .banjo {
+                position: absolute;
+                top: 0;
+                right: 0%;
+                transform: translateX(110%) translateY(-35px);
+            }
+        }
+
         .flex-hucks{
             display: flex;
             .side{
@@ -395,7 +417,7 @@ body{
                 padding: 0 32.5px;
                 .yellow-bg{
                     background: #f4b718;
-                    padding: 35px 0;
+                    padding: 35px 0 30px;
                     .huck-img{
                         width: calc(100% + 12px);
                         position: relative;
@@ -460,7 +482,7 @@ body{
     background-size: cover;
     background-position: top center;
     padding: 0 150px;
-    margin-top: -320px;
+    margin-top: -300px;
     z-index: 20;
     position: relative;
     padding-top: 145px;

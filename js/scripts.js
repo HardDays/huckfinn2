@@ -4,7 +4,17 @@ $(document).ready(function () {
 		centerMode: true,
 		centerPadding: '0',
 		slidesToShow: 3,
-	    dots: true
+	    dots: true,
+         responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 1,
+                centerMode: false
+                
+              }
+            }
+         ]
 	});
     
     $('.attraction__slider-for').slick({
