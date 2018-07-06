@@ -27,6 +27,18 @@
     .sec-instahacks .slider-wr .slider-init .slick-dots{
         bottom: 11%;
     }
+
+    .form-subscribe .m-w .wagon-left {
+        left: -200px;
+    }
+
+    .form-subscribe .m-w .wagon-right {
+        right: -200px;
+    }
+
+    .form-subscribe .m-w .wagon-baner {
+        right: -560px;
+    }
 }
 
 
@@ -46,10 +58,34 @@
     .sec-lvl-1 .october{
         width: 260px;
     }
+
+    .form-subscribe .m-w .wagon-left {
+        width: 190px;
+    }
+
+    .wagon-item {
+        width: 190px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .form-subscribe .m-w .wagon-right {
+        right: -160px
+    }
+
+    .form-subscribe .m-w .wagon-left {
+        left: - 170px;
+    }
+
+    .form-subscribe .m-w .wagon-center {
+        top: 210px;
+    }
 }
 @media (max-width: 1400px) {
     .sec-instahacks .m-w .flex-hucks-wrap .banjo{
-            transform: translateX(20%) translateY(-108%);
+        transform: translateX(20%) translateY(-108%);
        
     }
 }
@@ -90,8 +126,71 @@
     .sec-lvl-1 .new-text-1 {
         top: 290px;
     }
-}
+    
+    .form-subscribe .m-w .left-side .form-wrapp{
+        max-width: 295px;
+    }
+    .form-subscribe .m-w .left-side .form-wrapp form input{
+        padding: 11px 25px;
+    }
+    .form-subscribe .m-w .wagon-right{
+        top: 20px;
+            right: -156px;
+    }
+    
+    .form-subscribe .m-w .wagon-baner{
+        top: 31px;
+        right: -571px;
+        left: 69%;
+        height: 154px;
+    }
+    .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons a, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons span, .form-subscribe .m-w .left-side .form-wrapp form .flex-buttons button{
+        width: 163px;
+        font-size: 14px;
+    }
+    
+     .form-subscribe .m-w .wagon-left {
+        width: 190px;
+         left: -129px;
+    }
 
+    
+   
+  
+}
+    
+
+@media (max-width: 1330px) {
+    .form-subscribe .m-w .left-side .form-wrapp{
+        margin: 0;
+    }
+    .wagon-item {
+        width: 160px;
+    }
+    .form-subscribe .m-w .wagon-left{
+        width: 160px;
+        
+    }
+    .form-subscribe .m-w .wagon-baner{
+        top: 31px;
+        right: -388px;
+        left: 55%;
+    }
+    .form-subscribe .m-w .wagon-right {
+        right: 39px;
+    }
+    .form-subscribe .m-w .wagon-left {
+          left: 50%;
+        transform: translateX(-90%);
+        top: 247px;
+    }
+    .form-subscribe .m-w .wagon-center{
+            top: 241px;
+            left: 91px;
+    }
+    
+    
+}
 @media (max-width: 1279px) {
     .sec-lvl-1 .october {
         width: 160px;
@@ -106,8 +205,7 @@
         padding: 0;
     }
     
-    
-    
+   
     
     
     
