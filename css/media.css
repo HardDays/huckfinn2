@@ -16,7 +16,16 @@
     margin-top: -270px; }
 
   .sec-instahacks .slider-wr .slider-init .slick-dots {
-    bottom: 11%; } }
+    bottom: 11%; }
+
+  .form-subscribe .m-w .wagon-left {
+    left: -200px; }
+
+  .form-subscribe .m-w .wagon-right {
+    right: -200px; }
+
+  .form-subscribe .m-w .wagon-baner {
+    right: -560px; } }
 @media (max-width: 1500px) {
   .sec-lvl-4 .bg-movie {
     width: 1000px;
@@ -26,7 +35,24 @@
     padding-bottom: 40px; }
 
   .sec-lvl-1 .october {
-    width: 260px; } }
+    width: 260px; }
+
+  .form-subscribe .m-w .wagon-left {
+    width: 190px; }
+
+  .wagon-item {
+    width: 190px; }
+    .wagon-item img {
+      width: 100%; }
+
+  .form-subscribe .m-w .wagon-right {
+    right: -160px; }
+
+  .form-subscribe .m-w .wagon-left {
+    left: -170px; }
+
+  .form-subscribe .m-w .wagon-center {
+    top: 210px; } }
 @media (max-width: 1366px) {
   .sec-lvl-1 .lvl-1-m-w {
     height: 550px; }

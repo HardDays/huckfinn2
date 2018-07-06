@@ -28,6 +28,32 @@ $(document).ready(function () {
 
     $('#phone').mask('(000) 000-0000');
     
+    var menu = $('.bott');
+    var section = $('.sec-lvl-1');
+    var scrollOffset = menu.offset().top + menu.outerHeight();
+    var scrollLength = 0;
+
+    // $(window).resize(function(){
+    //     scrollOffset = menu.offset().top + menu.outerHeight();
+    //     // scrollLength = $(this).scrollTop();
+    //     // console.log($(this).scrollTop());
+    //     // if(scrollLength > scrollOffset) {
+    //     //     section.addClass('fixed');
+    //     // } else {
+    //     //     section.removeClass('fixed');
+    //     // }
+    // });
+
+    $(window).scroll(function(){
+        
+        scrollLength = $(this).scrollTop();
+        
+        if(scrollLength > scrollOffset) {
+            section.addClass('fixed');
+        } else {
+            section.removeClass('fixed');
+        }
+    });
 
 });
 

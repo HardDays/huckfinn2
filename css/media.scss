@@ -27,6 +27,18 @@
     .sec-instahacks .slider-wr .slider-init .slick-dots{
         bottom: 11%;
     }
+
+    .form-subscribe .m-w .wagon-left {
+        left: -200px;
+    }
+
+    .form-subscribe .m-w .wagon-right {
+        right: -200px;
+    }
+
+    .form-subscribe .m-w .wagon-baner {
+        right: -560px;
+    }
 }
 
 
@@ -45,6 +57,30 @@
 
     .sec-lvl-1 .october{
         width: 260px;
+    }
+
+    .form-subscribe .m-w .wagon-left {
+        width: 190px;
+    }
+
+    .wagon-item {
+        width: 190px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .form-subscribe .m-w .wagon-right {
+        right: -160px
+    }
+
+    .form-subscribe .m-w .wagon-left {
+        left: - 170px;
+    }
+
+    .form-subscribe .m-w .wagon-center {
+        top: 210px;
     }
 }
 

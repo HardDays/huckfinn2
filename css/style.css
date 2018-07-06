@@ -14,7 +14,8 @@
     outline: none; }
 
 body {
-  font-family: NORTHWEST; }
+  font-family: NORTHWEST;
+  overflow-x: hidden; }
 
 .container {
   max-width: 1070px; }
@@ -172,6 +173,17 @@ body {
           opacity: 1;
           visibility: visible;
           transform: translateY(0); }
+  .sec-lvl-1.fixed .bott {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -2px;
+    padding: 12px 0;
+    background: url(../img/second-menu-bg.png) no-repeat center center/cover;
+    z-index: 50; }
+    .sec-lvl-1.fixed .bott .navbar-collapse {
+      display: flex;
+      justify-content: center; }
 
 .second-menu {
   background-image: url(../img/second-menu-bg.png);
@@ -455,9 +467,12 @@ body {
   display: flex;
   max-width: 990px;
   margin: 0 auto;
-  align-items: flex-start; }
+  align-items: flex-start;
+  position: relative; }
   .form-subscribe .m-w .left-side {
-    width: 50%; }
+    width: 50%;
+    position: relative;
+    z-index: 6; }
     .form-subscribe .m-w .left-side .form-wrapp {
       position: relative;
       max-width: 361px;
@@ -466,7 +481,8 @@ body {
       background-repeat: no-repeat;
       background-image: url(../img/form-bg.png);
       background-position: center;
-      margin: 0 auto; }
+      margin: 0 auto;
+      z-index: 6; }
       .form-subscribe .m-w .left-side .form-wrapp .cloud-1 {
         position: absolute;
         top: -10px;
@@ -545,7 +561,31 @@ body {
               height: 56px;
               background-image: url(../img/insta.png); }
   .form-subscribe .m-w .right-side {
-    width: 50%; }
+    width: 50%;
+    position: relative; }
+  .form-subscribe .m-w .wagon-left {
+    position: absolute;
+    left: -250px;
+    top: 60px;
+    z-index: 6; }
+  .form-subscribe .m-w .wagon-center {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: 6; }
+  .form-subscribe .m-w .wagon-right {
+    position: absolute;
+    right: -260px;
+    top: -50px;
+    z-index: 6; }
+  .form-subscribe .m-w .wagon-baner {
+    position: absolute;
+    left: 81%;
+    right: -630px;
+    z-index: 4;
+    top: -8px; }
+    .form-subscribe .m-w .wagon-baner img {
+      width: 100%; }
 
 .attraction-item {
   display: flex;
