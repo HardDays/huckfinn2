@@ -345,6 +345,12 @@
         left: auto;
         right: 180px;
     }
+    .attraction-item-slider__media{
+        width: 60%;
+    }
+    
+    
+    
 }
 
 @media (max-width: 1050px) {
@@ -517,4 +523,46 @@
     .footer-item {
         flex-grow: 0;
     }
+    .sec-instahacks--attraction .img-b .img-g{
+        box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35);
+        
+    }
+    .attraction-item__description{
+            flex: 0 0 40%;
+    }
+    .attraction-item__media{
+        padding-right: 30px;
+        flex: 0 0 60%;
+    }
+    .attraction-item__subtitle{
+        font-size: 14px;
+    }
+    .attraction-item:nth-child(2n+2) .attraction-item__media{
+        padding-left: 30px;
+    }
+    .attraction-preview__item{
+        height: 165px;
+    }
+    .attraction-preview__item__name {
+        font-size: 20px;
+    }
+    .attraction-item-slider__description{
+        padding-top: 0;
+    }
+    .attraction-item-slider .attraction__slider-for{
+        box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35);
+    }
+    .attraction-item-slider__media{
+        padding-right: 30px;
+    }
+    .attraction-item-slider{
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
 }
