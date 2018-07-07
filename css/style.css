@@ -417,7 +417,8 @@ body {
   .sec-lvl-4.camping-page-content {
     margin-top: -3px;
     z-index: 0;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     background-image: url(../img/bg-camping.jpg); }
     .sec-lvl-4.camping-page-content.for-iframe-padd {
       padding-top: 75px; }
