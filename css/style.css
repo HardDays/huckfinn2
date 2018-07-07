@@ -183,7 +183,7 @@ body {
           transform: translateY(0); }
   .sec-lvl-1 .ticket-menu {
     display: none; }
-  .sec-lvl-1.fixed .bott {
+  .sec-lvl-1 .bott.affix {
     position: fixed;
     left: 0;
     right: 0;
@@ -191,16 +191,16 @@ body {
     padding: 12px 0;
     background: #176172 no-repeat center center /cover;
     z-index: 50; }
-    .sec-lvl-1.fixed .bott .ticket-menu {
+    .sec-lvl-1 .bott.affix .ticket-menu {
       display: block;
       position: absolute;
       left: 14px; }
-      .sec-lvl-1.fixed .bott .ticket-menu a {
+      .sec-lvl-1 .bott.affix .ticket-menu a {
         display: block;
         width: 100px;
         display: block;
         width: 161px; }
-    .sec-lvl-1.fixed .bott .navbar-collapse {
+    .sec-lvl-1 .bott.affix .navbar-collapse {
       display: flex;
       justify-content: center; }
 
