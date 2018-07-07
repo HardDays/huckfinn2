@@ -55,8 +55,7 @@
     top: 210px; } }
 @media (max-width: 1400px) {
   .sec-instahacks .m-w .flex-hucks-wrap .banjo {
-    -webkit-transform: translateX(20%) translateY(-108%);
-            transform: translateX(20%) translateY(-108%); } }
+    transform: translateX(20%) translateY(-108%); } }
 @media (max-width: 1366px) {
   .sec-lvl-1 .lvl-1-m-w {
     height: 550px; }
@@ -132,8 +131,7 @@
 
   .form-subscribe .m-w .wagon-left {
     left: 50%;
-    -webkit-transform: translateX(-90%);
-            transform: translateX(-90%);
+    transform: translateX(-90%);
     top: 247px; }
 
   .form-subscribe .m-w .wagon-center {
@@ -144,8 +142,7 @@
     width: 160px; } }
 @media (max-width: 1199px) {
   .sec-instahacks .slider-wr .slider-init .one-slide.slick-center .img-before {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
+    transform: scale(1); }
 
   .sec-instahacks .slider-wr .slider-init .one-slide {
     padding: 0; } }

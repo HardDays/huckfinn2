@@ -513,6 +513,26 @@ body{
     padding-top: 60px;
     padding-bottom: 200px;
     background-position: top center;
+      .img-b{
+          position: relative;
+          &:before{
+              content: '';
+            display: block;
+            padding-top: 57%;
+          }
+          .img-g{
+               background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+              box-shadow: 46px 43px 60px 0px rgba(0, 0, 0, 0.35);
+          }
+      }
   }
 }
 
@@ -861,6 +881,10 @@ body{
   &__item {
     margin-bottom: 25px;
     position: relative;
+      height: 217px;
+      background-position: center;
+      background-size: cover;
+     
 
     &__img {
       display: block;
@@ -885,10 +909,30 @@ body{
     width: 70%;
     float: left;
     padding-right: 60px;
+      
+      .one-slide{
+          position: relative;
+          &:before{
+              content: '';
+            display: block;
+            padding-top: 57%;
+          }
+      }
 
-    img {
-      width: 100%;
-      box-shadow: 46px 43px 60px 0px rgba(0, 0, 0, 0.35);
+    .img {
+          background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        
+        &.shadow-for{
+            box-shadow: 46px 43px 60px 0px rgba(0, 0, 0, 0.35);
+        }
     }
   }
 
