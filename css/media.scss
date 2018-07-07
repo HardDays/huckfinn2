@@ -348,9 +348,20 @@
     .attraction-item-slider__media{
         width: 60%;
     }
-    
-    
-    
+    .attraction-item-slider__description{
+        width: 40%;
+    }
+    .sec-lvl-4.sec-lvl-4--attraction{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sec-lvl-4.camping-page-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .form-subscribe-padd{
+        padding: 0 45px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -361,7 +372,9 @@
 }
 
 @media (max-width: 991px) {
-    
+    .form-subscribe-padd {
+        padding: 0 40px;
+    }
     .sec-lvl-1 .lvl-1-m-w {
         padding: 0 40px;
     }

@@ -55,7 +55,8 @@
     top: 210px; } }
 @media (max-width: 1400px) {
   .sec-instahacks .m-w .flex-hucks-wrap .banjo {
-    transform: translateX(20%) translateY(-108%); } }
+    -webkit-transform: translateX(20%) translateY(-108%);
+            transform: translateX(20%) translateY(-108%); } }
 @media (max-width: 1366px) {
   .sec-lvl-1 .lvl-1-m-w {
     height: 550px; }
@@ -131,7 +132,8 @@
 
   .form-subscribe .m-w .wagon-left {
     left: 50%;
-    transform: translateX(-90%);
+    -webkit-transform: translateX(-90%);
+            transform: translateX(-90%);
     top: 247px; }
 
   .form-subscribe .m-w .wagon-center {
@@ -144,14 +146,16 @@
   .sec-lvl-1 .lvl-1-m-w.fixed-t-years {
     max-width: 100%;
     left: 0;
-    transform: translateX(0); }
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
 
   .sec-lvl-1 .lvl-1-m-w .years {
     left: auto;
     right: 10px; }
 
   .sec-instahacks .slider-wr .slider-init .one-slide.slick-center .img-before {
-    transform: scale(1); }
+    -webkit-transform: scale(1);
+            transform: scale(1); }
 
   .sec-instahacks .slider-wr .slider-init .one-slide {
     padding: 0; }
@@ -192,7 +196,8 @@
 
   .sec-instahacks .slider-wr .slider-init .slick-dots {
     bottom: 0;
-    transform: translateX(-50%) translateY(27px); }
+    -webkit-transform: translateX(-50%) translateY(27px);
+            transform: translateX(-50%) translateY(27px); }
 
   .sec-instahacks .m-w .instahucks-img {
     width: 90%;
@@ -201,7 +206,8 @@
     margin-right: auto; }
 
   .sec-instahacks .m-w .flex-hucks-wrap .banjo {
-    transform: translateX(-10%) translateY(-108%); }
+    -webkit-transform: translateX(-10%) translateY(-108%);
+            transform: translateX(-10%) translateY(-108%); }
 
   .sec-instahacks .m-w .flex-hucks .side {
     padding: 0 22px; }
@@ -228,7 +234,8 @@
     left: -8.5%;
     right: -8.5%;
     width: auto;
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     bottom: -85px;
     margin: 0;
     height: 174px; }
@@ -253,19 +260,37 @@
 
   .form-subscribe .m-w .wagon-left {
     left: 40%;
-    transform: translateX(0%); }
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); }
 
   .form-subscribe .m-w .wagon-center {
     left: auto;
     right: 180px; }
 
   .attraction-item-slider__media {
-    width: 60%; } }
+    width: 60%; }
+
+  .attraction-item-slider__description {
+    width: 40%; }
+
+  .sec-lvl-4.sec-lvl-4--attraction {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .sec-lvl-4.camping-page-content {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .form-subscribe-padd {
+    padding: 0 45px; } }
 @media (max-width: 1050px) {
   .form-subscribe .m-w .wagon-baner {
     right: -177%;
     top: 37px; } }
 @media (max-width: 991px) {
+  .form-subscribe-padd {
+    padding: 0 40px; }
+
   .sec-lvl-1 .lvl-1-m-w {
     padding: 0 40px; }
 
@@ -385,21 +410,30 @@
     top: 305px; }
 
   .footer__nav {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0 15px; }
 
   .footer-item {
-    flex-grow: 0; }
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
 
   .sec-instahacks--attraction .img-b .img-g {
-    box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35); }
+    -webkit-box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35); }
 
   .attraction-item__description {
-    flex: 0 0 40%; }
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
 
   .attraction-item__media {
     padding-right: 30px;
-    flex: 0 0 60%; }
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
 
   .attraction-item__subtitle {
     font-size: 14px; }
@@ -417,7 +451,8 @@
     padding-top: 0; }
 
   .attraction-item-slider .attraction__slider-for {
-    box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35); }
+    -webkit-box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.35); }
 
   .attraction-item-slider__media {
     padding-right: 30px; }
