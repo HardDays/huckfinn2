@@ -248,35 +248,34 @@ body{
     .ticket-menu{
         display: none;
     }
-    &.fixed {
         
-        .bott {
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: -2px;
-            padding: 12px 0;
-            background: #176172 no-repeat center center /cover;
-            z-index: 50;
-            
-            
-            .ticket-menu{
+    .bott.affix {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: -2px;
+        padding: 12px 0;
+        background: #176172 no-repeat center center /cover;
+        z-index: 50;
+        
+        
+        .ticket-menu{
+            display: block;
+            position: absolute;
+            left: 14px;
+            a{
                 display: block;
-                position: absolute;
-                left: 14px;
-                a{
-                    display: block;
-                    width: 100px;
-                    display: block;
-                    width: 161px;
-                }
-            }
-            .navbar-collapse {
-                display: flex;
-                justify-content: center;
+                width: 100px;
+                display: block;
+                width: 161px;
             }
         }
+        .navbar-collapse {
+            display: flex;
+            justify-content: center;
+        }
     }
+
 }
 .second-menu{
     background-image: url(../img/second-menu-bg.png);
