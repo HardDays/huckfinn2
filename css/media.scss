@@ -1144,8 +1144,24 @@
     .footer__bottom-list a {
         font-size: 10px;
     }
+   
 }
-
+@media (max-width: 380px) {
+    .sec-lvl-4 .bg-movie .iframe-wr .bott-video{
+        margin: 0 auto;
+            height: 77px;
+        max-width: 305px;
+            bottom: -56px;
+    }
+    .sec-lvl-4 .bg-movie .iframe-wr iframe{
+        width: 263px;
+        margin: 0 auto;
+        height: 155px;
+    }
+    .sec-lvl-4 .bg-movie .iframe-wr{
+        margin-bottom: 20px;
+    }
+}
 @media (max-width: 359px) {
 
     .sec-lvl-1 .lvl-1-m-w .top .l-s a {
@@ -1201,7 +1217,7 @@
     }
 
     .sec-lvl-4 .form-subscribe {
-        margin: 420px 0 0;
+        margin: 300px 0 0;
     }
 
     .footer__inner {
@@ -1236,6 +1252,9 @@
     .footer__bottom-list {
         display: block;
         text-align: center;
+    }
+    .form-subscribe-padd {
+        padding: 0 15px;
     }
 }
 
