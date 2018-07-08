@@ -343,7 +343,9 @@ body {
       display: flex; }
       .sec-instahacks .m-w .flex-hucks .side {
         width: 25%;
-        padding: 0 32.5px; }
+        padding: 0 32.5px;
+        position: relative;
+        z-index: 21; }
         .sec-instahacks .m-w .flex-hucks .side .yellow-bg {
           background: #f4b718;
           padding: 35px 0 30px; }

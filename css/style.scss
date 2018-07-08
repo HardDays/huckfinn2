@@ -24,6 +24,7 @@
   }
 }
 
+
 body{
     font-family: NORTHWEST;
     overflow-x: hidden;
@@ -460,6 +461,8 @@ body{
             .side{
                 width: 25%;
                 padding: 0 32.5px;
+                position: relative;
+                z-index: 21;
                 .yellow-bg{
                     background: #f4b718;
                     padding: 35px 0 30px;
