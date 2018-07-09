@@ -242,6 +242,15 @@ body{
                             
                         }
                     }
+
+                    &:focus {
+                       .second-lvl-menu{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateY(0);
+                            
+                        } 
+                    }
                 }
             }
         }
@@ -554,6 +563,7 @@ body{
     z-index: 20;
     position: relative;
     padding-top: 145px;
+    overflow: hidden;
     &.camping-page-content{
         margin-top: -3px;
         z-index: 0;
