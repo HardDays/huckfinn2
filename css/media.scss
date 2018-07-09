@@ -947,6 +947,28 @@
     .attraction-item__title{
         font-size: 23px;
     }
+
+    .tickets_top_link {
+        background: #F5B818;
+        color: #000;
+        font: 20px NORTHWEST;
+        text-align: center;
+        display: block;
+        padding-bottom: 6px;
+        position: fixed;
+        z-index: 50;
+        width: 100%;
+        top: 0;
+    }
+    .sec-lvl-1 {
+        margin-top: 30px;
+    }
+    .sec-lvl-1 .lvl-1-m-w.fixed-t-years {
+        top: 30px;
+    }
+    .sec-lvl-1 .bott, .sec-lvl-1 .bott.affix {
+        top: 30px;
+    }
 }
 
 @media (max-width: 540px) {
