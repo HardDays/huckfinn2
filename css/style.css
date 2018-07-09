@@ -185,6 +185,10 @@ body {
           opacity: 1;
           visibility: visible;
           transform: translateY(0); }
+        .sec-lvl-1 .lvl-1-m-w .bott .menu-list li span:focus + .second-lvl-menu {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0); }
   .sec-lvl-1 .ticket-menu {
     display: none; }
   .sec-lvl-1 .bott.affix {

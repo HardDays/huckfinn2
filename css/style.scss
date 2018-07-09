@@ -251,6 +251,15 @@ body{
                             
                         } 
                     }
+
+                    span:focus {
+                        & + .second-lvl-menu{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateY(0);
+                            
+                        } 
+                    }
                 }
             }
         }
