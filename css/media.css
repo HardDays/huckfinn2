@@ -380,7 +380,7 @@
 
   .form-subscribe .m-w .wagon-baner {
     top: 87px;
-    width: calc(100vw - 38vw - 140px);
+    width: calc(100vw - 37vw - 140px);
     right: auto; }
 
   .sec-lvl-4 .form-subscribe {
@@ -675,7 +675,7 @@
 
   .form-subscribe .m-w .wagon-baner {
     top: 126px;
-    width: calc(100vw - 223px - 19vw);
+    width: calc(100vw - 223px - 16.5vw);
     right: auto; }
 
   .footer__inner {
@@ -884,7 +884,7 @@
     left: auto; }
 
   .form-subscribe .m-w .wagon-baner {
-    width: 106vw;
+    width: 110vw;
     left: 50%;
     top: -250px;
     transform: translateX(-48%); }
