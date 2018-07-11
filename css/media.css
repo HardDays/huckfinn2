@@ -218,6 +218,12 @@
   .sec-lvl-4 .bg-movie {
     width: 100%; }
 
+  .sec-lvl-4 .bg-movie .iframe-bg {
+    width: 950px;
+    height: 440px;
+    left: -180px;
+    top: 30px; }
+
   .sec-lvl-4 .bg-movie .iframe-wr {
     width: 60%;
     padding-right: 0px;
@@ -377,6 +383,12 @@
 
   .sec-lvl-4 .bg-movie {
     margin: 0 auto 50px auto; }
+
+  .sec-lvl-4 .bg-movie .iframe-bg {
+    width: 730px;
+    height: 330px;
+    left: -150px;
+    top: 50px; }
 
   .sec-lvl-4 .bg-movie .descr-iframe {
     padding-left: 30px;
@@ -659,6 +671,13 @@
     padding-left: 0;
     text-align: center;
     margin-bottom: 30px; }
+
+  .sec-lvl-4 .bg-movie .iframe-bg {
+    left: -40px;
+    right: -40px;
+    min-width: 100%;
+    top: 30px;
+    width: auto; }
 
   .sec-lvl-4 .bg-movie .descr-iframe .butt-share {
     margin: 0 auto 20px auto; }
@@ -1047,6 +1066,11 @@
 
   .sec-lvl-4 .bg-movie {
     padding-top: 290px; }
+
+  .sec-lvl-4 .bg-movie .iframe-bg {
+    left: -20px;
+    right: -20px;
+    height: 240px; }
 
   .sec-lvl-4 .form-subscribe {
     margin: 300px 0 0; }

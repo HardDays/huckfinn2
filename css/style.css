@@ -474,27 +474,41 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 200px;
-    margin-bottom: 190px; }
+    margin-bottom: 190px;
+    position: relative; }
+    .sec-lvl-4 .bg-movie .iframe-bg {
+      width: 1100px;
+      height: 580px;
+      position: absolute;
+      left: -250px;
+      top: 0px;
+      background: url(../img/video-bg.png) no-repeat center center/cover; }
     .sec-lvl-4 .bg-movie .iframe-wr {
       position: relative;
       width: 620px;
-      margin-right: 22.5px; }
+      margin-right: 22.5px;
+      z-index: 5; }
       .sec-lvl-4 .bg-movie .iframe-wr iframe {
         display: block;
         width: 100%;
         height: 325px;
         -webkit-box-shadow: 40px 40px 29px 0px rgba(0, 0, 0, 0.26);
         -moz-box-shadow: 40px 40px 29px 0px rgba(0, 0, 0, 0.26);
-        box-shadow: 40px 40px 29px 0px rgba(0, 0, 0, 0.26); }
+        box-shadow: 40px 40px 29px 0px rgba(0, 0, 0, 0.26);
+        position: relative;
+        z-index: 3; }
       .sec-lvl-4 .bg-movie .iframe-wr .head-v {
         font-size: 30px;
         color: #fff;
         padding-left: 8px;
-        margin-bottom: 55px; }
+        margin-bottom: 55px;
+        position: relative;
+        z-index: 4; }
       .sec-lvl-4 .bg-movie .iframe-wr .bott-video {
         position: relative;
         height: 164px;
         width: 721px;
+        z-index: 5;
         left: 50%;
         transform: translateX(-50%);
         background-image: url(../img/bott-video.png);
