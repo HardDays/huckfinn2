@@ -225,6 +225,8 @@ body {
     display: block; }
   .sec-lvl-1.other-page .lvl-1-m-w {
     height: 425px; }
+    .sec-lvl-1.other-page .lvl-1-m-w.fixed-t-years {
+      height: 0; }
   .sec-lvl-1.other-page .lvl-1-m-w .top {
     padding-top: 20px; }
   .sec-lvl-1.other-page .october {

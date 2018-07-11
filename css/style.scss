@@ -322,6 +322,10 @@ body{
     &.other-page {
         .lvl-1-m-w {
             height: 425px;
+
+            &.fixed-t-years{
+                height: 0;
+            }
         }
 
         .lvl-1-m-w .top {
