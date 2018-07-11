@@ -21,7 +21,7 @@ body {
   max-width: 1070px; }
 
 .sec-lvl-1 {
-  background-image: url(../img/main-baner-other.jpg);
+  background-image: url(../img/main-baner-new.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -31,8 +31,7 @@ body {
     top: 335px;
     width: 774px;
     background-image: url(../img/new-text-bg.png);
-    background-repeat: no-repeat;
-    display: none; }
+    background-repeat: no-repeat; }
     .sec-lvl-1 .new-text-1 p {
       font-size: 38px;
       color: #f4b718;
@@ -54,8 +53,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
-    background-image: url(../img/october-new.png);
-    display: none; }
+    background-image: url(../img/october-new.png); }
   .sec-lvl-1 .lvl-1-m-w.fixed-t-years {
     position: fixed;
     width: 100%;
@@ -213,20 +211,32 @@ body {
     .sec-lvl-1 .bott.affix .navbar-collapse {
       display: flex;
       justify-content: center; }
-  .sec-lvl-1.home {
-    background-image: url(../img/main-baner-new.jpg); }
-    .sec-lvl-1.home .lvl-1-m-w.fixed-t-years {
-      position: fixed;
-      width: 100%;
-      left: 50%;
-      top: 0;
-      transform: translateX(-50%);
-      z-index: 55;
-      height: 0; }
-    .sec-lvl-1.home .new-text-1 {
-      display: block; }
-    .sec-lvl-1.home .october {
-      display: block; }
+  .sec-lvl-1.home .lvl-1-m-w.fixed-t-years {
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 55;
+    height: 0; }
+  .sec-lvl-1.home .new-text-1 {
+    display: block; }
+  .sec-lvl-1.home .october {
+    display: block; }
+  .sec-lvl-1.other-page .lvl-1-m-w {
+    height: 425px; }
+  .sec-lvl-1.other-page .lvl-1-m-w .top {
+    padding-top: 20px; }
+  .sec-lvl-1.other-page .october {
+    top: 145px;
+    max-width: 240px; }
+  .sec-lvl-1.other-page .new-text-1 {
+    top: 295px; }
+  .sec-lvl-1.other-page .lvl-1-m-w .ticket {
+    right: 0; }
+  .sec-lvl-1.other-page .lvl-1-m-w .bott .menu-list {
+    position: relative;
+    z-index: 100; }
 
 .second-menu {
   background-image: url(../img/second-menu-bg.png);

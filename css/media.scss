@@ -250,6 +250,20 @@
         background-position: right top;
     }
 
+    .sec-lvl-1.other-page .new-text-1 p {
+        font-size: 27px;
+        padding-left: 10px;
+    }
+
+    .sec-lvl-1.other-page .new-text-1 p span {
+        font-size: 22px;
+    }
+
+    .sec-lvl-1.other-page .new-text-1 {
+        width: 520px;
+        background-position: right top;
+    }
+
     .sec-lvl-1 .lvl-1-m-w .top .m-s {
         padding: 0 25px;
     }
@@ -257,6 +271,17 @@
     .sec-lvl-1 .lvl-1-m-w .ticket {
         right: auto;
         left: 0;
+    }
+
+    .sec-lvl-1.other-page .lvl-1-m-w .ticket {
+        right: 15px;
+        left: auto;
+    }
+
+    .sec-lvl-1.other-page .lvl-1-m-w .ticket {
+        right: 15px;
+        left: auto;
+        transform: translateX(0);
     }
 
     .sec-lvl-1 .lvl-1-m-w .bott .menu-list li .second-lvl-menu a {
@@ -439,6 +464,13 @@
     .sec-lvl-1 .new-text-1 {
         top: 300px;
     }
+    
+    .sec-lvl-1.other-page .lvl-1-m-w {
+        height: 385px;
+    }
+    .sec-lvl-1.other-page .new-text-1 {
+        top: 275px;
+     }
 
     .sec-lvl-1 .bott.affix .ticket-menu {
         left: 10px;
@@ -631,10 +663,16 @@
 }
 
 @media (max-width: 767px) {
+
+    .sec-lvl-1.other-page .lvl-1-m-w {
+        height: 550px;
+    }
+
     .sec-lvl-1 .lvl-1-m-w .top {
         flex-wrap: wrap;
-        padding-top: 55px;
+        padding-top: 55px !important;
     }
+
 
     .sec-lvl-1 .lvl-1-m-w .years {
         width: 80px;
@@ -664,28 +702,30 @@
     }
 
     .sec-lvl-1 .october {
-        top: 225px;
+        top: 225px !important;
     }
 
     .sec-lvl-1 .new-text-1 {
-        top: 340px;
-        width: 100%;
-        max-width: 470px;
+        top: 340px !important;
+        width: 100% !important;
+        max-width: 470px !important;
     }
 
     .sec-lvl-1 .lvl-1-m-w .ticket {
         width: 160px;
         bottom: 20px;
+        left: 0 !important;
+        transform: translateX(25px) !important;
     }
 
     .sec-lvl-1 .new-text-1 p {
-        font-size: 24px;
-        line-height: 28px;
-        padding-left: 15px;
+        font-size: 24px !important;
+        line-height: 28px !important;
+        padding-left: 15px !important;
     }
 
     .sec-lvl-1 .new-text-1 p span {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .sec-lvl-1 .bott {
@@ -1070,6 +1110,10 @@
         padding: 0 15px;
     }
 
+    .sec-lvl-1.other-page .lvl-1-m-w {
+        height: 520px !important;
+    }
+
     .sec-lvl-1 .lvl-1-m-w .years {
         width: 70px;
     }
@@ -1105,14 +1149,14 @@
     }
 
     .sec-lvl-1 .new-text-1 p {
-        font-size: 17px;
-        line-height: 23px;
-        padding-left: 10px;
-        padding-bottom: 15px;
+        font-size: 17px !important;
+        line-height: 23px !important;
+        padding-left: 10px !important;
+        padding-bottom: 15px !important;
     }
 
     .sec-lvl-1 .new-text-1 p span {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .sec-instahacks .slider-wr {
@@ -1292,11 +1336,11 @@
     }
 
     .sec-lvl-1 .new-text-1 p {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     .sec-lvl-1 .new-text-1 p span {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .sec-lvl-1 .lvl-1-m-w {

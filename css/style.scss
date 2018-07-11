@@ -35,7 +35,7 @@ body{
 }
 
 .sec-lvl-1{
-    background-image: url(../img/main-baner-other.jpg);
+    background-image: url(../img/main-baner-new.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -46,7 +46,7 @@ body{
         width: 774px;
         background-image: url(../img/new-text-bg.png);
         background-repeat: no-repeat;
-        display: none;
+
         p{
             font-size: 38px;
             color: #f4b718;
@@ -72,7 +72,6 @@ body{
         background-repeat: no-repeat;
         background-position: left center;
         background-image: url(../img/october-new.png);
-        display: none;
     }
     .lvl-1-m-w{
          &.fixed-t-years{
@@ -296,7 +295,7 @@ body{
     }
 
     &.home {
-        background-image: url(../img/main-baner-new.jpg);
+        //background-image: url(../img/main-baner-new.jpg);
 
         .lvl-1-m-w{
             &.fixed-t-years{
@@ -317,6 +316,34 @@ body{
 
         .october {
             display: block;
+        }
+    }
+
+    &.other-page {
+        .lvl-1-m-w {
+            height: 425px;
+        }
+
+        .lvl-1-m-w .top {
+            padding-top: 20px;
+        }
+
+        .october {
+            top: 145px;
+            max-width: 240px;
+        }
+
+        .new-text-1 {
+            top: 295px;
+        }
+
+        .lvl-1-m-w .ticket {
+            right: 0;
+        }
+
+        .lvl-1-m-w .bott .menu-list {
+            position: relative;
+            z-index: 100;
         }
     }
 
