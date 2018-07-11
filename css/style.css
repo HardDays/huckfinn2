@@ -372,7 +372,10 @@ body {
         z-index: 21; }
         .sec-instahacks .m-w .flex-hucks .side .yellow-bg {
           background: #f4b718;
-          padding: 35px 0 30px; }
+          padding: 35px 0 30px;
+          height: 100%;
+          display: flex;
+          flex-direction: column; }
           .sec-instahacks .m-w .flex-hucks .side .yellow-bg .huck-img {
             width: calc(100% + 12px);
             position: relative;
@@ -391,6 +394,8 @@ body {
             color: #023546;
             margin-bottom: 13px;
             padding: 0 8px; }
+          .sec-instahacks .m-w .flex-hucks .side .yellow-bg .description {
+            flex: 1; }
           .sec-instahacks .m-w .flex-hucks .side .yellow-bg .s {
             text-align: center;
             color: #fff;

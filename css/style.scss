@@ -509,6 +509,9 @@ body{
                 .yellow-bg{
                     background: #f4b718;
                     padding: 35px 0 30px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
                     .huck-img{
                         width: calc(100% + 12px);
                         position: relative;
@@ -531,6 +534,11 @@ body{
                         margin-bottom: 13px;
                         padding: 0 8px;
                     }
+                    
+                    .description {
+                        flex: 1;
+                    }
+
                     .s{
                         text-align: center;
                         color: #fff;
