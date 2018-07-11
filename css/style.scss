@@ -956,6 +956,21 @@ body{
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     text-align-last: center;
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus,
+        &:visited {
+            color: #fff;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
   }
 }
 

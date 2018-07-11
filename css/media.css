@@ -853,7 +853,8 @@
     margin-top: 30px; }
 
   .sec-lvl-1 .lvl-1-m-w.fixed-t-years {
-    top: 30px; }
+    top: 30px;
+    height: auto; }
 
   .sec-lvl-1 .bott, .sec-lvl-1 .bott.affix {
     top: 30px; }

@@ -712,6 +712,13 @@ body {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     text-align-last: center; }
+    .attraction-item__subtitle a {
+      color: #fff;
+      text-decoration: underline; }
+      .attraction-item__subtitle a:hover, .attraction-item__subtitle a:focus, .attraction-item__subtitle a:visited {
+        color: #fff; }
+      .attraction-item__subtitle a:hover {
+        text-decoration: none; }
 
 .attraction-preview > .row > div {
   padding: 0 13px; }
