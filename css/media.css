@@ -1,6 +1,6 @@
 @media (max-width: 1900px) {
   .sec-lvl-4.sec-lvl-4--attraction {
-    margin-top: -285px;
+    margin-top: -385px;
     padding-top: 215px; } }
 @media (max-width: 1700px) {
   .sec-lvl-1 .october {
@@ -13,7 +13,7 @@
     width: 215px; } }
 @media (max-width: 1599px) {
   .sec-lvl-4.sec-lvl-4--attraction {
-    margin-top: -270px; }
+    margin-top: -360px; }
 
   .sec-instahacks .slider-wr .slider-init .slick-dots {
     bottom: 11%; }
@@ -28,7 +28,7 @@
     right: -485px; }
 
   .sec-instahacks--attraction .attraction-preview__row {
-    padding-bottom: 70px; } }
+    padding-bottom: 170px; } }
 @media (max-width: 1500px) {
   .sec-lvl-4 .bg-movie {
     width: 1000px;
