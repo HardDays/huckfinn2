@@ -358,14 +358,54 @@ body {
     max-width: 1085px;
     margin: 0 auto;
     padding-bottom: 285px; }
-    .sec-instahacks .m-w .instahucks-img {
-      width: 100%;
-      margin-bottom: 90px;
-      margin-top: 50px; }
+    .sec-instahacks .m-w .line-up {
+      text-align: justify;
+      text-align-last: center;
+      max-width: 1060px;
+      margin: 70px auto 0; }
+      .sec-instahacks .m-w .line-up-wrap {
+        margin-left: -40px; }
+        .sec-instahacks .m-w .line-up-wrap > div {
+          display: inline;
+          color: #fff;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 1px 1px 15px rgba(0, 0, 0, 0.3), 1px 1px 25px rgba(0, 0, 0, 0.3);
+          line-height: 1.1;
+          margin-left: 40px;
+          cursor: pointer;
+          position: relative; }
+          .sec-instahacks .m-w .line-up-wrap > div.before:before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: -31px; }
+          .sec-instahacks .m-w .line-up-wrap > div:hover {
+            color: #f4b718; }
+        .sec-instahacks .m-w .line-up-wrap .ex-lg {
+          font-size: 85px;
+          display: block; }
+        .sec-instahacks .m-w .line-up-wrap .lg {
+          font-size: 72px;
+          display: block; }
+        .sec-instahacks .m-w .line-up-wrap .md {
+          font-size: 37px;
+          line-height: 1.55; }
+          .sec-instahacks .m-w .line-up-wrap .md.before:before {
+            top: 19px; }
+        .sec-instahacks .m-w .line-up-wrap .sm {
+          font-size: 27px;
+          line-height: 1.8; }
+          .sec-instahacks .m-w .line-up-wrap .sm.before:before {
+            top: 11px; }
+        .sec-instahacks .m-w .line-up-wrap .br {
+          display: none; }
     .sec-instahacks .m-w h3 {
       text-align: center;
       font-weight: normal;
       margin-bottom: 60px;
+      margin-top: 100px;
       color: #fff;
       font-size: 30px; }
     .sec-instahacks .m-w .flex-hucks-wrap {
@@ -399,6 +439,20 @@ body {
             -webkit-box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53);
             -moz-box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53);
             box-shadow: 15px 15px 29px 0px rgba(0, 0, 0, 0.53); }
+            .sec-instahacks .m-w .flex-hucks .side .yellow-bg .huck-img .play-video {
+              position: absolute;
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              z-index: 2;
+              background: url(../img/play-video.png) no-repeat center;
+              cursor: pointer; }
+            .sec-instahacks .m-w .flex-hucks .side .yellow-bg .huck-img iframe {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: 3; }
           .sec-instahacks .m-w .flex-hucks .side .yellow-bg .h {
             font-size: 18px;
             text-align: center;
@@ -422,7 +476,7 @@ body {
             text-align: center;
             font-family: 'Anja Eliane'; }
   .sec-instahacks--attraction {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 200px;
     background-position: top center; }
     .sec-instahacks--attraction .img-b {
@@ -442,6 +496,11 @@ body {
         width: 100%;
         height: 100%;
         box-shadow: 46px 43px 60px 0px rgba(0, 0, 0, 0.35); }
+    .sec-instahacks--attraction .attraction-preview__title {
+      margin-top: 150xp;
+      margin-bottom: 40px; }
+    .sec-instahacks--attraction .attraction-preview__row {
+      padding-bottom: 300px; }
 
 .some-iframe-wr iframe {
   width: 100%;
@@ -1030,7 +1089,7 @@ body {
 
 #line_up_modal .modal-dialog {
   width: 1000px;
-  height: 600px;
+  height: auto;
   position: absolute;
   top: 50%;
   margin-top: -300px;

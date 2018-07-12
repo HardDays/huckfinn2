@@ -39,6 +39,10 @@
     .form-subscribe .m-w .wagon-baner {
         right: -485px;
     }
+
+    .sec-instahacks--attraction .attraction-preview__row {
+        padding-bottom: 70px;
+    }
 }
 
 
@@ -313,6 +317,27 @@
         padding: 0 22px;
     }
 
+    .sec-instahacks .m-w .line-up {
+        max-width: 970px;
+        margin: 70px auto 0;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .ex-lg {
+        font-size: 74px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .lg {
+        font-size: 64px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .md {
+        font-size: 34px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .sm {
+        font-size: 24px;
+    }
+
     .sec-lvl-4 {
         padding: 0 45px;
     }
@@ -523,6 +548,42 @@
 
     .sec-instahacks .m-w {
         padding-bottom: 215px;
+    }
+
+    .sec-instahacks .m-w .line-up {
+        max-width: 750px;
+        margin: 50px auto 0;
+        padding: 0 20px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap {
+        margin: 0;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .ex-lg#line_up1 {
+        font-size: 56px;
+        margin: 0;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .lg#line_up3 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .md {
+        font-size: 25px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .sm {
+        font-size: 20px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap > div.before:before {
+        content: none;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap > div {
+        margin: 0 10px;
     }
 
     .sec-lvl-4 {
@@ -865,6 +926,33 @@
         margin-bottom: 40px;
     }
 
+    .sec-instahacks .m-w .line-up {
+        text-align: center;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .br {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap > div {
+        margin: 0 3px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .ex-lg#line_up1 {
+        font-size: 45px;
+        margin-bottom: 4px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .lg#line_up3 {
+        font-size: 38px;
+        margin-bottom: 4px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .md {
+        // font-size: 4.9vw;
+    }
+
     .sec-lvl-4 .bg-movie {
         flex-wrap: wrap;
         padding-top: 230px;
@@ -1024,12 +1112,13 @@
     }
     .attraction-item-slider{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .attraction-item-slider__media{
         float: none;
         padding-right: 0;
         width: 100%;
+        margin-bottom: 30px;
         
     }
     .attraction-item-slider__description{
@@ -1175,6 +1264,22 @@
 
     .sec-instahacks .m-w .instahucks-img {
         margin-bottom: 20px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .ex-lg#line_up1 {
+        font-size: 30px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .lg#line_up3 {
+        font-size: 28px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .md {
+        font-size: 22px;
+    }
+
+    .sec-instahacks .m-w .line-up-wrap .sm {
+        font-size: 17px;
     }
 
     .sec-instahacks .m-w .flex-hucks .side {
