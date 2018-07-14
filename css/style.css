@@ -287,10 +287,16 @@ body {
       background-color: transparent; }
       .sec-instahacks .slider-wr .slider-init .slick-arrow.slick-prev {
         background-image: url(../img/arr-left.png);
-        left: 25%; }
+        top: auto;
+        bottom: 33px;
+        left: 50%;
+        margin-left: -130px; }
       .sec-instahacks .slider-wr .slider-init .slick-arrow.slick-next {
         background-image: url(../img/arr-right.png);
-        right: 25%; }
+        top: auto;
+        bottom: 33px;
+        right: 50%;
+        margin-right: -130px; }
     .sec-instahacks .slider-wr .slider-init .slick-dots {
       display: flex;
       list-style: none;
@@ -612,7 +618,7 @@ body {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: -33px; }
+        margin-top: -76px; }
     .sec-lvl-4 .bg-movie .descr-iframe {
       max-width: 375px;
       margin-left: 22.2px;

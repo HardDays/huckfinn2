@@ -408,12 +408,17 @@ body{
                 background-color: transparent;
                 &.slick-prev{
                     background-image: url(../img/arr-left.png);
-                    left: 25%;
-                    
+                    top: auto;
+                    bottom: 33px;
+                    left: 50%;
+                    margin-left: -130px;  
                 }
                 &.slick-next{
                     background-image: url(../img/arr-right.png);
-                    right: 25%;
+                    top: auto;
+                    bottom: 33px;
+                    right: 50%;
+                    margin-right: -130px; 
                 }
             }
             .slick-dots{
@@ -847,7 +852,7 @@ body{
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                margin-top: -33px;  
+                margin-top: -76px;  
             }
             
         }
