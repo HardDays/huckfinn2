@@ -66,6 +66,46 @@ $(document).ready(function () {
     'line_up16': '<p>The Devil’s Box is a punk rock, revisionist-western take on playing fiddle tunes from around the world. Two-beat Cajun stomps, break-neck bluegrass, haunting Gypsy laments, and cranked out Celtic jigs all get twisted, bent, and melted down to become burning masses of fiddle heat.</p><p>For all lovers of folk, rock, jazz and exciting lively music, the Devil’s Box can appear as Solo Fiddle, Fiddle & Percussion, and Fiddle & Percussion & Bass</p><p>"A fire-breathing virtuoso of the violin, Chris Murphy crams more musical mileage into a short set than most players do in an entire tour. Murphy does the devil\'s handiwork on four strings with a winning presence and a gypsy\'s knack."<br><i>James Rotondi, Editor-in-chief</i></p>'
   };
 
+  $('#form-subscribe').on('submit', function(e) {
+    e.preventDefault();
+    var $form = $('#form-subscribe');
+    var $email = $('#form-subscribe [type="email"]');
+    var $phone = $('#phone');
+    var strEmail = $email.val();
+    var strPhone = $phone.val();
+
+    console.log($email.val());
+
+    var r = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+    if(!r.test(strEmail)) {
+        console.log('incorrect email')
+        return false;
+    }
+
+    if(strPhone.length < 15 || strPhone.indexOf('_') != -1) {
+      $phone.parent().addClass('has-error');
+      return false;
+    }
+
+    // $.ajax({
+    //   type: "POST",
+    //   async: false,
+    //   url: "https://huckfinnsub.herokuapp.com/subscribers.rb",
+    //   data: 'email='+strEmail+'&phone='+strPhone,
+    //   dataType: "html",
+    //   success: function(data) {
+    //       console.log('data='+data);
+    //   }
+    // });
+
+    $.post('https://huckfinnsub.herokuapp.com/subscribers', {email: 'test@test.ru', phone: '12356446'})
+                    .done(function(msg){
+                        alert("Success!");
+                    }).fail(function(xhr, status, error) {
+                        alert(`status: ${error}` + xhr.responseText);
+                    });
+
+  });
 });
 
 
