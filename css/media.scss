@@ -25,7 +25,7 @@
     }
 
     .sec-instahacks .slider-wr .slider-init .slick-dots{
-        bottom: 11%;
+        bottom: 0;
     }
 
     .form-subscribe .m-w .wagon-left {
@@ -299,7 +299,7 @@
 
     .sec-instahacks .slider-wr .slider-init .slick-dots {
         bottom: 0;
-        transform: translateX(-50%) translateY(27px);
+        transform: translateX(-50%) translateY(100%);
     }
 
     .sec-instahacks .m-w .instahucks-img {
@@ -701,6 +701,10 @@
         margin-bottom: 0;
     }
 
+    .sec-lvl-4.camping-page-content .block-of-camping .map-img {
+        margin-bottom: 35px;
+    }
+
     .huckfinn_container .line_up_wrap div {
         font-size: 24px; }
 
@@ -986,6 +990,10 @@
 
     .sec-lvl-4 .bg-movie .descr-iframe .butt-share {
         margin: 0 auto 20px auto;
+    }
+
+    .sec-lvl-4.camping-page-content .block-of-camping .map-container {
+        margin-bottom: -80px;
     }
 
     .form-subscribe .m-w .left-side {

@@ -69,43 +69,94 @@ $(document).ready(function () {
   $('#form-subscribe').on('submit', function(e) {
     e.preventDefault();
     var $form = $('#form-subscribe');
-    var $email = $('#form-subscribe [type="email"]');
+    var $email = $('#email');
     var $phone = $('#phone');
     var strEmail = $email.val();
     var strPhone = $phone.val();
 
-    console.log($email.val());
-
     var r = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
     if(!r.test(strEmail)) {
-        console.log('incorrect email')
+        $email.parent().addClass('has-error');
         return false;
+    } else {
+      $email.parent().removeClass('has-error');
     }
 
-    if(strPhone.length < 15 || strPhone.indexOf('_') != -1) {
+    if(strPhone.length < 14 || strPhone.indexOf('_') != -1) {
       $phone.parent().addClass('has-error');
       return false;
+    } else {
+      $phone.parent().removeClass('has-error');
     }
 
-    // $.ajax({
-    //   type: "POST",
-    //   async: false,
-    //   url: "https://huckfinnsub.herokuapp.com/subscribers.rb",
-    //   data: 'email='+strEmail+'&phone='+strPhone,
-    //   dataType: "html",
-    //   success: function(data) {
-    //       console.log('data='+data);
-    //   }
-    // });
+    $.ajax({
+      type: "POST",
+      async: false,
+      url: "https://huckfinnsub.herokuapp.com/subscribers",
+      data: 'email='+strEmail+'&phone='+strPhone,
+      dataType: "html",
+      success: function(data) {
+        $form.trigger( 'reset');
+      }
+    });
+  });
 
-    $.post('https://huckfinnsub.herokuapp.com/subscribers', {email: 'test@test.ru', phone: '12356446'})
-                    .done(function(msg){
-                        alert("Success!");
-                    }).fail(function(xhr, status, error) {
-                        alert(`status: ${error}` + xhr.responseText);
-                    });
+  $('#form-subscribe input').focusin(function(){
+    $(this).parent().removeClass('has-error');
+  });
 
+  $('#volonter').on('submit', function(e) {
+    e.preventDefault();
+    var $form = $(this);
+    var $name = $('#name');
+    var $email = $('#email');
+    var $subject = $('#subject');
+    var $message = $('#message');
+
+
+    if($name.val() == '') {
+      $name.parent().addClass('has-error');
+      return false;
+    } else {
+       $name.parent().removeClass('has-error');
+    }
+
+    var r = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+    if(!r.test($email.val())) {
+        $email.parent().addClass('has-error');
+        return false;
+    } else {
+      $email.parent().removeClass('has-error');
+    }
+
+    if($subject.val() == '') {
+      $subject.parent().addClass('has-error');
+      return false;
+    } else {
+      $subject.parent().removeClass('has-error');
+    }
+
+    if($message.val() == '') {
+      $message.parent().addClass('has-error');
+      return false;
+    } else {
+      $message.parent().removeClass('has-error');
+    }
+
+    $.ajax({
+      type: "POST",
+      async: false,
+      url: "https://huckfinnsub.herokuapp.com/subscribers/message",
+      data: 'email='+$email.val()+'&name='+$name.val()+'&subject='+$subject.val()+'&message='+$message.val(),
+      dataType: "html",
+      success: function(data) {
+        $form.trigger( 'reset');
+      }
+    });
+  });
+
+   $('#volonter input, #message').focusin(function(){
+    $(this).parent().removeClass('has-error');
   });
 });
-
 
