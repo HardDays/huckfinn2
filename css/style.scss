@@ -511,19 +511,20 @@ body{
         padding-bottom: 285px;
         
         .line-up {
-            text-align: justify;
+            text-align: center;
             text-align-last: center;
-            max-width: 1060px;
+            max-width: 1100px;
             margin: 70px auto 0;
+            position: relative;
+            z-index: 6;
 
             &-wrap {
-                margin-left: -40px;
                 >div {
                     display: inline;
                     color: #fff;
                     text-shadow: 1px 1px 2px rgba(0,0,0, 0.3), 1px 1px 15px rgba(0,0,0, 0.3), 1px 1px 25px rgba(0,0,0, 0.3);
                     line-height: 1.1;
-                    margin-left: 40px;
+                    margin: 0 20px;
                     cursor: pointer;
                     position: relative;
 
@@ -547,16 +548,18 @@ body{
                 .ex-lg {
                     font-size: 85px;
                     display: block;
+                    margin: 0;
                 }
 
                 .lg {
                     font-size: 72px;
                     display: block;
+                    margin: 0;
                 }
 
                 .md {
-                    font-size: 37px;
-                    line-height: 1.55;
+                    font-size: 38px;
+                    line-height: 1.5;
 
                     &.before {
                         &:before {
@@ -566,12 +569,12 @@ body{
                 }
 
                 .sm {
-                    font-size: 27px;
-                    line-height: 1.8;
+                    font-size: 31px;
+                    line-height: 1.5;
 
                     &.before {
                         &:before {
-                            top: 11px;
+                            top: 15px;
                         }
                     }
                 }

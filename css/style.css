@@ -365,48 +365,50 @@ body {
     margin: 0 auto;
     padding-bottom: 285px; }
     .sec-instahacks .m-w .line-up {
-      text-align: justify;
+      text-align: center;
       text-align-last: center;
-      max-width: 1060px;
-      margin: 70px auto 0; }
-      .sec-instahacks .m-w .line-up-wrap {
-        margin-left: -40px; }
-        .sec-instahacks .m-w .line-up-wrap > div {
-          display: inline;
-          color: #fff;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 1px 1px 15px rgba(0, 0, 0, 0.3), 1px 1px 25px rgba(0, 0, 0, 0.3);
-          line-height: 1.1;
-          margin-left: 40px;
-          cursor: pointer;
-          position: relative; }
-          .sec-instahacks .m-w .line-up-wrap > div.before:before {
-            content: '';
-            width: 16px;
-            height: 16px;
-            background: #fff;
-            border-radius: 50%;
-            position: absolute;
-            left: -31px; }
-          .sec-instahacks .m-w .line-up-wrap > div:hover {
-            color: #f4b718; }
-        .sec-instahacks .m-w .line-up-wrap .ex-lg {
-          font-size: 85px;
-          display: block; }
-        .sec-instahacks .m-w .line-up-wrap .lg {
-          font-size: 72px;
-          display: block; }
-        .sec-instahacks .m-w .line-up-wrap .md {
-          font-size: 37px;
-          line-height: 1.55; }
-          .sec-instahacks .m-w .line-up-wrap .md.before:before {
-            top: 19px; }
-        .sec-instahacks .m-w .line-up-wrap .sm {
-          font-size: 27px;
-          line-height: 1.8; }
-          .sec-instahacks .m-w .line-up-wrap .sm.before:before {
-            top: 11px; }
-        .sec-instahacks .m-w .line-up-wrap .br {
-          display: none; }
+      max-width: 1100px;
+      margin: 70px auto 0;
+      position: relative;
+      z-index: 6; }
+      .sec-instahacks .m-w .line-up-wrap > div {
+        display: inline;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 1px 1px 15px rgba(0, 0, 0, 0.3), 1px 1px 25px rgba(0, 0, 0, 0.3);
+        line-height: 1.1;
+        margin: 0 20px;
+        cursor: pointer;
+        position: relative; }
+        .sec-instahacks .m-w .line-up-wrap > div.before:before {
+          content: '';
+          width: 16px;
+          height: 16px;
+          background: #fff;
+          border-radius: 50%;
+          position: absolute;
+          left: -31px; }
+        .sec-instahacks .m-w .line-up-wrap > div:hover {
+          color: #f4b718; }
+      .sec-instahacks .m-w .line-up-wrap .ex-lg {
+        font-size: 85px;
+        display: block;
+        margin: 0; }
+      .sec-instahacks .m-w .line-up-wrap .lg {
+        font-size: 72px;
+        display: block;
+        margin: 0; }
+      .sec-instahacks .m-w .line-up-wrap .md {
+        font-size: 38px;
+        line-height: 1.5; }
+        .sec-instahacks .m-w .line-up-wrap .md.before:before {
+          top: 19px; }
+      .sec-instahacks .m-w .line-up-wrap .sm {
+        font-size: 31px;
+        line-height: 1.5; }
+        .sec-instahacks .m-w .line-up-wrap .sm.before:before {
+          top: 15px; }
+      .sec-instahacks .m-w .line-up-wrap .br {
+        display: none; }
     .sec-instahacks .m-w h3 {
       text-align: center;
       font-weight: normal;
