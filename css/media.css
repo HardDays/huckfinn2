@@ -457,6 +457,9 @@
   .sec-instahacks .m-w .line-up-wrap > div {
     margin: 0 10px; }
 
+  .sec-instahacks .m-w .old-line-up .line-up-wrap > div {
+    margin: 0 10px; }
+
   .sec-lvl-4 {
     padding: 0 40px; }
 
@@ -757,6 +760,13 @@
 
   .sec-instahacks .m-w .line-up-wrap > div {
     margin: 0 3px; }
+
+  .sec-instahacks .m-w .old-line-up .line-up-wrap .lg {
+    font-size: 50px;
+    margin: 0 3px; }
+
+  .sec-instahacks .m-w .old-line-up {
+    margin-top: 40px; }
 
   .sec-instahacks .m-w .line-up-wrap .ex-lg#line_up1 {
     font-size: 45px;

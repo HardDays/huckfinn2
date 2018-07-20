@@ -555,6 +555,11 @@ body{
                     font-size: 72px;
                     display: block;
                     margin: 0;
+
+                    &.inline {
+                        display: inline;
+                        margin: 0 20px;
+                    }
                 }
 
                 .md {
@@ -583,6 +588,18 @@ body{
                     display: none;
                 }
             } 
+        }
+
+        .old-line-up {
+            margin-top: 20px;
+            .line-up-wrap {
+                >div {
+                    &:hover {
+                        color: #fff;
+                        cursor: default;
+                    }
+                }
+            }
         }
 
         h3{

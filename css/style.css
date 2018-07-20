@@ -397,6 +397,9 @@ body {
         font-size: 72px;
         display: block;
         margin: 0; }
+        .sec-instahacks .m-w .line-up-wrap .lg.inline {
+          display: inline;
+          margin: 0 20px; }
       .sec-instahacks .m-w .line-up-wrap .md {
         font-size: 38px;
         line-height: 1.5; }
@@ -409,6 +412,11 @@ body {
           top: 15px; }
       .sec-instahacks .m-w .line-up-wrap .br {
         display: none; }
+    .sec-instahacks .m-w .old-line-up {
+      margin-top: 20px; }
+      .sec-instahacks .m-w .old-line-up .line-up-wrap > div:hover {
+        color: #fff;
+        cursor: default; }
     .sec-instahacks .m-w h3 {
       text-align: center;
       font-weight: normal;
