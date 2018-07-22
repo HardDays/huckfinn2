@@ -1601,3 +1601,36 @@ body{
     text-decoration: none;
   }
 }
+
+.sec-lvl-4.camping-page-content .block-of-camping h1 {
+    font-size: 45px;
+}
+
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding-bottom: 160px;
+
+  &-item {
+    width: 50%;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 30px;   
+  }
+
+  &-question {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  &-answer {
+    font-size: 16px;
+    margin: 0;
+    line-height: 20px;
+    color: #fff;
+  }
+}

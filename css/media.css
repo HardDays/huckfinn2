@@ -579,7 +579,14 @@
     height: 450px; }
 
   #line_up_modal .text {
-    height: 220px; } }
+    height: 220px; }
+
+  .faq {
+    padding-bottom: 110px; }
+
+  .faq-item {
+    width: 100%;
+    margin-bottom: 35px; } }
 @media (max-width: 767px) {
   .sec-lvl-1.other-page .lvl-1-m-w {
     height: 550px; }
@@ -984,7 +991,10 @@
     margin-top: 20px; }
 
   #line_up_modal .closee {
-    top: 4px; } }
+    top: 4px; }
+
+  .sec-lvl-4.camping-page-content .block-of-camping .faq-title {
+    font-size: 45px; } }
 @media (max-width: 540px) {
   .footer__inner {
     margin-top: -185px; } }
