@@ -1,6 +1,7 @@
 @font-face {
-  font-family: NORTHWEST;
-  src: url(../fonts/NORTHWEST-B-DEMO.otf);
+  font-family: 'NORTHWEST';
+  src: url("../fonts/nort/NORTHWEST-Bold.eot");
+  src: url("../fonts/nort/NORTHWEST-Bold.woff2") format("woff2"), url("../fonts/nort/NORTHWEST-Bold.woff") format("woff"), url("../fonts/nort/NORTHWEST-Bold.ttf") format("truetype"), url("../fonts/nort/NORTHWEST-Bold.svg#NORTHWEST-Bold") format("svg"), url("../fonts/nort/NORTHWEST-Bold.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -1250,8 +1251,12 @@ body {
   background: rgba(0, 0, 0, 0.7); }
   #thx.modal .modal-dialog {
     width: 100%;
-    max-width: 500px;
-    margin: 30px auto; }
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0); }
   #thx.modal .modal-header {
     border-bottom: none; }
     #thx.modal .modal-header .close {
@@ -1262,11 +1267,19 @@ body {
       #thx.modal .modal-header .close:hover {
         opacity: 0.6; }
   #thx.modal .modal-body {
-    padding: 0 25px 30px; }
+    padding: 0 30px 30px; }
+  #thx.modal .favicon {
+    margin: -20px 0 -10px;
+    text-align: center; }
+    #thx.modal .favicon img {
+      width: 180px; }
   #thx.modal .thx-message {
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     color: #f4b718; }
+    #thx.modal .thx-message span {
+      font-size: 60px;
+      display: block; }
   #thx.modal .modal-content {
     background: #023546; }
 

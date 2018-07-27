@@ -994,7 +994,14 @@
     top: 4px; }
 
   .sec-lvl-4.camping-page-content .block-of-camping .faq-title {
-    font-size: 45px; } }
+    font-size: 45px; }
+
+  #thx.modal .modal-dialog {
+    width: auto;
+    max-width: 100%;
+    margin: 20px 15px 0;
+    position: static;
+    transform: translate3d(0, 0, 0); } }
 @media (max-width: 540px) {
   .footer__inner {
     margin-top: -185px; } }
@@ -1172,7 +1179,13 @@
     margin: 0; }
 
   .footer__bottom-list a {
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  #thx.modal .thx-message {
+    font-size: 18px; }
+
+  #thx.modal .thx-message span {
+    font-size: 40px; } }
 @media (max-width: 380px) {
   .sec-lvl-4 .bg-movie .iframe-wr .bott-video {
     margin: 0 auto;

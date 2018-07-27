@@ -1236,6 +1236,14 @@
     .sec-lvl-4.camping-page-content .block-of-camping .faq-title {
         font-size: 45px;
     }
+
+    #thx.modal .modal-dialog {
+        width: auto;
+        max-width: 100%;
+        margin: 20px 15px 0;
+        position: static;
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @media (max-width: 540px) {
@@ -1472,6 +1480,13 @@
         font-size: 10px;
     }
    
+   #thx.modal .thx-message {
+    font-size: 18px;
+   }
+
+   #thx.modal .thx-message span {
+    font-size: 40px;
+   }
 }
 @media (max-width: 380px) {
     .sec-lvl-4 .bg-movie .iframe-wr .bott-video{
