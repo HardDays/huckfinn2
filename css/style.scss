@@ -1634,3 +1634,41 @@ body{
     color: #fff;
   }
 }
+
+#thx.modal {
+    background: rgba(0,0,0,0.7);
+
+    .modal-dialog {
+        width: 100%;
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
+    .modal-header {
+        border-bottom: none;
+        .close {
+            font-size: 40px;
+            color: #f4b718;
+            opacity: 1;
+            transition: 0.3s ease;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .modal-body {
+        padding: 0 25px 30px;
+    }
+
+    .thx-message {
+        font-size: 22px;
+        text-align: center;
+        color: #f4b718;
+    }
+
+    .modal-content {
+        background: #023546;
+    }
+}

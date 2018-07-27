@@ -1246,4 +1246,28 @@ body {
     line-height: 20px;
     color: #fff; }
 
+#thx.modal {
+  background: rgba(0, 0, 0, 0.7); }
+  #thx.modal .modal-dialog {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto; }
+  #thx.modal .modal-header {
+    border-bottom: none; }
+    #thx.modal .modal-header .close {
+      font-size: 40px;
+      color: #f4b718;
+      opacity: 1;
+      transition: 0.3s ease; }
+      #thx.modal .modal-header .close:hover {
+        opacity: 0.6; }
+  #thx.modal .modal-body {
+    padding: 0 25px 30px; }
+  #thx.modal .thx-message {
+    font-size: 22px;
+    text-align: center;
+    color: #f4b718; }
+  #thx.modal .modal-content {
+    background: #023546; }
+
 /*# sourceMappingURL=style.css.map */

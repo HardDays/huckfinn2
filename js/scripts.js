@@ -98,6 +98,7 @@ $(document).ready(function () {
       dataType: "html",
       success: function(data) {
         $form.trigger( 'reset');
+        $('#thx').modal('show');
       }
     });
   });
@@ -152,6 +153,7 @@ $(document).ready(function () {
       dataType: "html",
       success: function(data) {
         $form.trigger( 'reset');
+        $('#thx').modal('show');
       }
     });
   });
