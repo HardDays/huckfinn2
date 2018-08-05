@@ -777,6 +777,10 @@ body{
         z-index: 0;
         padding: 0;
         background-image: url(../img/bg-camping.jpg);
+        &.rules-bg{
+            background-size:cover;
+            background-attachment: fixed;
+        }
         &.for-iframe-padd{
             padding-top: 75px;
         }
