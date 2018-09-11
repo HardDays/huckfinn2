@@ -41,7 +41,12 @@ $(document).ready(function () {
   $('.line-up-wrap div').click(function(e) {
     if ($(this).attr('id') != '') {
       $('#line_up_modal h3').html($(this).text());
-      $('#line_up_modal .img').html('<img src="img/line-up/'+$(this).attr('id')+'.jpg" class="img-responsive">');
+      if ($(this).attr('id') == 'line_up23') {
+          $('#line_up_modal .img').html('<img src="img/line-up/'+$(this).attr('id')+'.png" class="img-responsive">');
+      }
+      else {
+          $('#line_up_modal .img').html('<img src="img/line-up/'+$(this).attr('id')+'.jpg" class="img-responsive">');
+      }
       $('#line_up_modal .text').html(lineup[$(this).attr('id')]);
       $('#line_up_modal').modal('show');
     }
@@ -67,7 +72,9 @@ $(document).ready(function () {
     'line_up19': '<p>The Seldom Scene is an American bluegrass band formed in 1971 in Bethesda, Maryland. The Scene has been instrumental in starting the progressive bluegrass movement as their shows include bluegrass versions of country music, rock, and even pop. What does it take for a bluegrass band to remain popular for more than four decades? For The Seldom Scene, it\'s taken not only talented musicians, a signature sound, and a solid repertoire, but also a sheer sense of fun.</p>'
       ,
     'line_up20': "<p>Blue Highway has earned 27 collective IBMA Awards, 6 SPBGMA Awards, one Dove Award, and three Grammy nominations as a band, plus two Grammy Awards among its current members.</p><p>Blue Highway's #1 album 'Original Traditional'  was nominated for a 2017 GRAMMY Award for Best Bluegrass Album.</p>",
-    'line_up21': "<p>Old Salt Union is a string band founded by a horticulturist, cultivated by classically trained musicians, and fueled by a vocalist/bass player who is also a hip-hop producer with a fondness for the Four Freshmen. It is this collision of styles and musical vocabularies that informs their fresh approach to bluegrass and gives them an electric live performance vibe that seems to pull more from Vaudeville than the front porch.</p>"
+    'line_up21': "<p>Old Salt Union is a string band founded by a horticulturist, cultivated by classically trained musicians, and fueled by a vocalist/bass player who is also a hip-hop producer with a fondness for the Four Freshmen. It is this collision of styles and musical vocabularies that informs their fresh approach to bluegrass and gives them an electric live performance vibe that seems to pull more from Vaudeville than the front porch.</p>",
+      'line_up22': "<p>Montana-bred bluegrass outfit Kitchen Dwellers are captivating fans across the country with their high-energy live performances and unique approach to traditional music that fans have dubbed Galaxy Grass. Formed while attending college at Montana State, the group has burst onto the bluegrass scene sharing the stage with acts such as Railroad Earth, Greensky Bluegrass, The Infamous Stringdusters and Twiddle.</p>",
+      'line_up23': "<p>ANNOUNCING HUCK FINN HOUSE PARTY!</p><p>Presented by The Bluegrass Situation (BGS) and hosted by The Infamous Stringdusters' own, Chris Pandolfi, House Party will be a unique collaborative set on Saturday evening (October 6th) featuring some of the best pickers in the game! We're so excited to have the support of BGS and stay tuned for a BGS video series featuring artists from 2018 Huck Finn Jubilee presented by Huck Finn! Do you have your festival passes yet, Huckers?!</p>"
       
       
   };
