@@ -745,7 +745,12 @@
     .faq-item {
         width: 100%;
         margin-bottom: 35px;
-    }   
+    }
+    #pdf-image .modal-dialog{
+        max-width: 600px;
+    }
+    
+    
 }
 
 @media (max-width: 767px) {
@@ -1244,6 +1249,21 @@
         position: static;
         transform: translate3d(0, 0, 0);
     }
+    #pdf-image .modal-dialog{
+        max-width: 280px;
+    }
+    .new-butt-image-popup button{
+        font-size: 17px;
+        padding: 8px 18px;
+    }
+    .flex-sponsors li{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .flex-sponsors{
+        margin-bottom: 0;
+    }
+    
 }
 
 @media (max-width: 540px) {

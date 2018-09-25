@@ -101,6 +101,9 @@
                         <li class="first-itm">
                             <a href="attraction.html">ATTRACTIONS</a>
                         </li>
+                        <li class="first-itm">
+                            <a href="sponsors.html">sponsors</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -161,6 +164,9 @@
                     <div id="line_up22" class="sm before">THE KITCHEN DWELLERS</div>
                     <div id="line_up23" class="sm before">THE HUCKFINN HOUSE PARTY</div>
                 </div>
+            </div>
+            <div class="new-butt-image-popup">
+                <button><span>daily line up & set times</span></button>
             </div>
             <h3>INSTAHUCKS</h3>
             <div class="flex-hucks-wrap">
@@ -344,6 +350,14 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="pdf-image" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <img src="img/pdf-image.jpg" class="img-responsive" alt=""> 
+         
+        </div>
+      </div>
+    </div>
     
     <div class="modal fade" id="line_up_modal" style="display: none;">
         <div class="modal-dialog">
@@ -374,6 +388,9 @@
                 scrollTop: $('#line-up').offset().top - 50
             }, 500);
         })
+        $('.new-butt-image-popup button').click(function(){
+            $('#pdf-image').modal('show');
+        });
     </script>
 </body>
 
